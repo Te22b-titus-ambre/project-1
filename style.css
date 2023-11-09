@@ -1,7 +1,6 @@
 header{
     text-align: center;
 }
-
 .sec-1{
     margin: auto;
 }
@@ -9,14 +8,19 @@ header{
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 10% auto;
+    margin-top: 20px;
 }
-
+.info{
+    text-justify: auto;
+    margin-top: 50%;
+}
 .chokladbollar{
     grid-column: 1/1;
     grid-row: 1/1;
     font-size: 20px;
+    margin-bottom: 500px;
+    text-align: center;
 }
-
 .beskrivning{
     grid-column: 1/1;
     grid-row: 2/2;
@@ -32,7 +36,11 @@ header{
     grid-row: 2/2;
     width: 400px;
     height: 350px;
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 20px;
+    margin-right: 20px;
+    display: flex;
+    object-fit: contain;
+
 }
 
