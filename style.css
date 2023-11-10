@@ -140,3 +140,28 @@ header{
     margin: auto;
     font-size: 25px;
 }
+
+.step-by{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+footer{
+    width: auto;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    justify-content:center;
+
+    border-top: 2px solid #000;
+
+    margin-top: 60px;
+}
